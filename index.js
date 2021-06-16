@@ -1,5 +1,5 @@
 function main() {
-  const header = document.querySelector(".header");
-  header(header);
+  let headerEl = document.querySelector(".header");
+  header(headerEl);
 }
 main();
