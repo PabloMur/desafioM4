@@ -1,5 +1,17 @@
 function main() {
-  let headerEl = document.querySelector(".header");
+  const headerEl = document.querySelector(".header");
   header(headerEl);
+
+  const homeEl = document.querySelector(".home");
+  home(homeEl);
+
+  const sobreMiEl = document.querySelector(".sobreMiSection");
+  sobreMi(sobreMiEl);
+
+  const serviciosEl = document.querySelector(".servicios");
+  servicios(serviciosEl);
+
+  const footerEL = document.querySelector(".footer");
+  footer(footerEL);
 }
 main();

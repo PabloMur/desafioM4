@@ -1,0 +1,29 @@
+.servicios {
+  overflow: auto;
+  text-align: center;
+}
+
+.portfolio--container__results {
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio--work {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 4px;
+
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.potfolio--work__img {
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.portfolio--work__content {
+  padding: 12px;
+}

@@ -1,0 +1,29 @@
+.banner {
+  overflow: auto;
+  background-image: url("../../img/imageMob.jpg");
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .banner {
+    height: 70vh;
+    background-image: url("../../img/imageDes.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.banner__h1 {
+  color: white;
+  text-align: center;
+}
+
+.banner__h1::first-line {
+  font-size: 48px;
+  font-weight: 700;
+}

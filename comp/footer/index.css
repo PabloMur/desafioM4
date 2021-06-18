@@ -1,0 +1,63 @@
+.footerEl {
+  height: 80vh;
+  width: 100%;
+  background-color: var(--gris-clarito);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 960px) {
+  .footerEl {
+    height: 40vh;
+    flex-direction: row;
+  }
+}
+
+.footerEl__logoPersonal--img {
+  height: auto;
+  width: 17vw;
+}
+
+@media (min-width: 960px) {
+  .footerEl__logoPersonal--img {
+    width: 5vw;
+  }
+}
+
+.footerEl__contactList {
+  height: 22vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerEl__contactList--ul {
+  list-style: none;
+  height: 35vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.contactList__item {
+  font-size: var(--contenido);
+  font-family: var(--contenido);
+  display: flex;
+  align-items: center;
+  color: black;
+  text-decoration: none;
+}
+
+.contactList__item--img {
+  height: auto;
+  width: 28px;
+  margin-left: 15px;
+}
