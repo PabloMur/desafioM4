@@ -1,0 +1,43 @@
+.formulario {
+  grid-area: formulario;
+  height: auto;
+  width: 100%;
+  color: aliceblue;
+  background-color: black;
+  padding: 9vh 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.formulario__form {
+  padding: 0 auto;
+  text-align: center;
+}
+
+.formulario__title {
+  font-size: 30px;
+  width: 90%;
+  margin: 15px 5%;
+  text-align: center;
+}
+
+.formulario input,
+.formulario textarea {
+  width: 90%;
+  height: 45px;
+  border: solid 3px var(--casi-negro);
+  margin: 10px 5%;
+}
+
+.formulario textarea {
+  min-height: 120px;
+  max-height: 120px;
+}
+
+#boton {
+  background-color: yellowgreen;
+  color: white;
+  margin-top: 9vh;
+  border: none;
+}

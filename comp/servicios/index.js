@@ -47,7 +47,7 @@ function addWorkCard(params = {}) {
 
 function getWorks() {
   return fetch(
-    "https://cdn.contentful.com/spaces/5xbk2z82bc5k/environments/master/entries?access_token=JJ3XNobA54WqjpmpAtiyUtnixWDPg0825dOD4WDCMWo&&content_type=portfolio"
+    "https://cdn.contentful.com/spaces/5xbk2z82bc5k/environments/master/entries?access_token=JJ3XNobA54WqjpmpAtiyUtnixWDPg0825dOD4WDCMWo&&content_type=servicios"
   )
     .then((response) => {
       return response.json();
@@ -56,7 +56,7 @@ function getWorks() {
       //funcion que nos da un array con los items de cms
       const fieldsCollection = data.items.map((item) => {
         return {
-          title: item.fields.titulo,
+          title: item.fields.title,
           description: item.fields.descripcion,
           url: item.fields.url,
           urlIMg: item.fields.imagen.sys.id,

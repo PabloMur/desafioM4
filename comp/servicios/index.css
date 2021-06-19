@@ -8,6 +8,18 @@
   flex-direction: column;
 }
 
+@media (min-width: 960px) {
+  .portfolio--container__results {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+}
+
+.portfolio--work__title {
+  color: red;
+}
+
 .portfolio--work {
   width: 80%;
   margin: 0 auto;

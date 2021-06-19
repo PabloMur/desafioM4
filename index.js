@@ -11,6 +11,9 @@ function main() {
   const serviciosEl = document.querySelector(".servicios");
   servicios(serviciosEl);
 
+  const contactoEl = document.querySelector(".contacto");
+  contacto(contactoEl);
+
   const footerEL = document.querySelector(".footer");
   footer(footerEL);
 }
