@@ -12,6 +12,8 @@
   .footerEl {
     height: 40vh;
     flex-direction: row;
+    padding: 0 5%;
+    justify-content: space-between;
   }
 }
 
@@ -28,23 +30,31 @@
 
 .footerEl__contactList {
   height: 22vh;
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: chocolate;
 }
 
 .footerEl__contactList--ul {
   list-style: none;
   height: 35vh;
   width: 100%;
+  background-color: crimson;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   margin: 0;
   padding: 0;
+}
+
+@media (min-width: 960px) {
+  .footerEl__contactList--ul {
+    align-items: flex-end;
+  }
 }
 
 .contactList__item {
