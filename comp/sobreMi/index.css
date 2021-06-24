@@ -2,12 +2,27 @@
   height: auto;
   width: 100%;
   padding: 2em;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+.sobreMi__article {
+  display: flex;
+}
+
+@media (min-width: 960px) {
+  .sobreMi__article {
+    display: flex;
+  }
 }
 
 .sobreMi__article--h2 {
   text-align: center;
   font-size: 32px;
   font-weight: 700;
+}
+
+.sobreMi__hero--img {
+  height: 30vh;
+  width: auto;
 }

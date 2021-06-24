@@ -40,7 +40,7 @@ function header(el) {
 
     template.content.querySelector(".pageName").textContent = params.pageName;
 
-    template.content.querySelector(".logoP__img").textContent = params.logo;
+    template.content.querySelector(".logoP__img").src = params.logo;
 
     template.content.querySelector(".link1").textContent = params.link1;
 
@@ -73,7 +73,6 @@ function header(el) {
         return obj;
       })
       .then((object) => {
-        console.log(object);
         addHeaderComponent(object);
       });
   }
