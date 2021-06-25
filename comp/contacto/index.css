@@ -10,9 +10,20 @@
   justify-content: space-around;
 }
 
+@media (min-width: 960px) {
+  .formulario {
+    flex-direction: row;
+  }
+}
+
 .formulario__form {
   padding: 0 auto;
   text-align: center;
+}
+
+@media (min-width: 960px) {
+  .formulario__form {
+  }
 }
 
 .formulario__title {
@@ -20,6 +31,13 @@
   width: 90%;
   margin: 15px 5%;
   text-align: center;
+}
+
+@media (min-width: 960px) {
+  .formulario__title {
+    margin: 0;
+    font-size: 50px;
+  }
 }
 
 .formulario input,
@@ -36,8 +54,9 @@
 }
 
 #boton {
-  background-color: yellowgreen;
-  color: white;
+  background-color: orangered;
+  color: black;
   margin-top: 9vh;
   border: none;
+  font-weight: 700;
 }

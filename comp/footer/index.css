@@ -1,7 +1,8 @@
 .footerEl {
   height: 80vh;
   width: 100%;
-  background-color: var(--gris-clarito);
+  background-color: #303030;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -35,14 +36,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: chocolate;
 }
 
 .footerEl__contactList--ul {
   list-style: none;
   height: 35vh;
   width: 100%;
-  background-color: crimson;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -62,7 +61,12 @@
   font-family: var(--contenido);
   display: flex;
   align-items: center;
-  color: black;
+}
+
+.contactList__item a {
+  display: flex;
+  align-items: center;
+  color: white;
   text-decoration: none;
 }
 

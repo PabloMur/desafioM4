@@ -69,6 +69,7 @@
   position: absolute;
   top: 0;
   transform: translateX(100%);
+  display: none;
 }
 
 @media (min-width: 960px) {

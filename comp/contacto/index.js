@@ -25,7 +25,6 @@ function contacto(el) {
 
   function enviarMensaje() {
     const formEl = document.querySelector(".formulario__form");
-    const boton = formEl.querySelector("#boton");
 
     formEl.addEventListener("submit", (evento) => {
       evento.preventDefault();

@@ -1,11 +1,12 @@
 .sobreMi {
   height: 100vh;
   width: 100%;
-  background-color: rgb(85 33 255);
+  background-color: rgb(85, 33, 255);
   color: white;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 @media (min-width: 960px) {
@@ -30,8 +31,7 @@
 }
 
 .sobreMi__content {
-  background-color: #4b14ff;
-  padding: 1em;
+  padding: 2em;
 }
 
 @media (min-width: 960px) {
@@ -47,12 +47,18 @@
 }
 
 .sobreMi__hero {
-  height: 100%;
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  background-color: rgb(255, 255, 255);
+  display: none;
+}
+
+@media (min-width: 960px) {
+  .sobreMi__hero {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    background-color: rgb(255, 255, 255);
+  }
 }
 
 .sobreMi__hero--img {
@@ -66,7 +72,4 @@
     max-height: 90%;
     width: auto;
   }
-}
-
-.sobreMi__article--p {
 }

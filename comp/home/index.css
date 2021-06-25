@@ -10,7 +10,7 @@
 
 @media (min-width: 960px) {
   .banner {
-    height: 70vh;
+    height: 100vh;
     background-image: url("../../img/imageDes.jpg");
     background-size: cover;
     background-position: center;
