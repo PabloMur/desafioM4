@@ -7,8 +7,8 @@ function sobreMi(el) {
           <img class="sobreMi__hero--img" src="" alt="yo" />
         </div>
         <div class="sobreMi__content">
-          <h2 class="sobreMi__article--h2"></h2>
-          <p class="sobreMi__article--p"></p>
+          <h2 class="sobreMi__content--h2"></h2>
+          <p class="sobreMi__content--p"></p>
         </div>
       </article>
     </section>`;
@@ -33,10 +33,10 @@ function sobreMi(el) {
         return obj;
       })
       .then((obj) => {
-        const titulo = document.querySelector(".sobreMi__article--h2");
+        const titulo = document.querySelector(".sobreMi__content--h2");
         titulo.textContent = obj.titulo;
 
-        const texto = document.querySelector(".sobreMi__article--p");
+        const texto = document.querySelector(".sobreMi__content--p");
         texto.textContent = obj.texto;
 
         const hero = document.querySelector(".sobreMi__hero--img");

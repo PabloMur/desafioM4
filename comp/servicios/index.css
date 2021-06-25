@@ -1,6 +1,18 @@
 .servicios {
   overflow: auto;
   text-align: center;
+  /*background-color: rgb(216, 58, 0);*/
+  background-image: linear-gradient(
+    to right top,
+    rgb(85, 33, 255),
+    rgb(85, 33, 255),
+    rgb(216, 58, 0)
+  );
+  color: white;
+}
+
+.servicios__title {
+  margin: 2.5em;
 }
 
 .portfolio--container__results {
@@ -17,17 +29,16 @@
 }
 
 .portfolio--work__title {
-  color: red;
+  color: white;
 }
 
 .portfolio--work {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
-  border-radius: 4px;
-
+  background: orangered;
   margin-bottom: 10%;
   text-align: center;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .potfolio--work__img {

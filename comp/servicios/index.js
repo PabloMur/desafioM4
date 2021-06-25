@@ -1,7 +1,7 @@
 function servicios(el) {
   const serviciosEl = document.createElement("div");
   serviciosEl.innerHTML = `<section class="servicios">
-  <h2 class="servicios--title">
+  <h2 class="servicios__title">
     Mis Servicios
   </h2>
   <div class="portfolio--container__results">
@@ -18,7 +18,7 @@ function servicios(el) {
                 Te cuento un poco más sobre este trabajo y sobre cómo la rompí
                 en este proyecto. si el texto se hace...
               </p>
-              <a class="portfolio--work__link" href="#">ver más</a>
+        
             </div>
           </div>
         </template>
@@ -38,8 +38,6 @@ function addWorkCard(params = {}) {
     params.description;
 
   template.content.querySelector(".potfolio--work__img").src = params.img;
-
-  template.content.querySelector(".portfolio--work__link").href = params.url;
 
   const clone = document.importNode(template.content, true);
   container.appendChild(clone);
