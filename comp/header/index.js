@@ -13,9 +13,9 @@ function header(el) {
         /></a><p class="pageName"></p>
       </div>
       <ul class="header__nav--lista">
-        <li><a href="./pages/sobreMi/index.html" class="link1"></a></li>
-        <li><a href="" class="link2">servicios</a></li>
-        <li><a href="./pages/contacto/index.html" class="link3"></a></li>
+        <li><a href="../../pages/portfolio/index.html" class="link1"></a></li>
+        <li><a href="../../pages/servicios/index.html" class="link2"></a></li>
+        <li><a href="../../pages/contacto/index.html" class="link3"></a></li>
       </ul>
       <img
         class="header__nav--burger"
@@ -25,9 +25,9 @@ function header(el) {
     </nav>
     <div class="header__menu-modal">
       <ul class="header__menu-modal--lista">
-        <li><a href="./pages/sobreMi/index.html" class="link1">portfolio</a></li>
-        <li><a href="" class="link2">servicios</a></li>
-        <li><a href="./pages/contacto/index.html" class="link3">contacto</a></li>
+        <li><a href="../../pages/portfolio/index.html" class="link1">portfolio</a></li>
+        <li><a href="../../pages/servicios/index.html" class="link2">servicios</a></li>
+        <li><a href="../../pages/contacto/index.html" class="link3">contacto</a></li>
       </ul>
     </div>
   </template>
