@@ -36,4 +36,16 @@ function footer(el) {
   </div>
 </footer>`;
   el.appendChild(footerEl);
+  function traerLogo() {
+    return fetch(
+      "https://cdn.contentful.com/spaces/5xbk2z82bc5k/environments/master/entries?access_token=JJ3XNobA54WqjpmpAtiyUtnixWDPg0825dOD4WDCMWo&&content_type=footer"
+    )
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        let logoImg = document.querySelector(".footerEl__logoPersonal--img");
+        logoImg.src = data.includes.Asset[0].fields.file.url;
+      });
+  }
 }
