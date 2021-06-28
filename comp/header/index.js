@@ -25,9 +25,9 @@ function header(el) {
     </nav>
     <div class="header__menu-modal">
       <ul class="header__menu-modal--lista">
-        <li><a href="../../pages/portfolio/index.html" class="link1">portfolio</a></li>
-        <li><a href="../../pages/servicios/index.html" class="link2">servicios</a></li>
-        <li><a href="../../pages/contacto/index.html" class="link3">contacto</a></li>
+        <li><a href="../../portfolio.html" class="link1">portfolio</a></li>
+        <li><a href="../../servicios.html" class="link2">servicios</a></li>
+        <li><a href="../../contacto.html" class="link3">contacto</a></li>
       </ul>
     </div>
   </template>

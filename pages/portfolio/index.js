@@ -1,11 +1,11 @@
 function main() {
-  const headerEl = document.querySelector(".header");
+  let headerEl = document.querySelector(".header");
   header(headerEl);
 
-  const portfolioEl = document.querySelector(".portfolio");
-  contacto(portfolioEl);
+  let portfolioEl = document.querySelector(".portfolio");
+  portfolio(portfolioEl);
 
-  const footerEL = document.querySelector(".footer");
-  footer(footerEL);
+  let footerEl = document.querySelector(".footer");
+  footer(footerEl);
 }
 main();

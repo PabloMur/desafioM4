@@ -3,8 +3,12 @@
   min-height: 100vh;
   width: 100%;
   color: aliceblue;
-  background-color: black;
-  background-image: linear-gradient(to right bottom, purple, orange);
+  background-image: linear-gradient(
+    to right top,
+    rgb(85, 33, 255),
+    rgb(85, 33, 255),
+    rgb(216, 58, 0)
+  );
   padding: 9vh 5vw;
   display: flex;
   flex-direction: column;
@@ -50,6 +54,7 @@
   height: 45px;
   border: solid 3px var(--casi-negro);
   margin: 10px 5%;
+  box-shadow: 5px 5px 5px 3px rgb(0 0 0 / 25%);
 }
 
 .formulario textarea {
@@ -59,6 +64,7 @@
 
 #boton {
   background-color: black;
+  box-shadow: 5px 5px 5px 3px rgb(0 0 0 / 25%);
   color: white;
   margin-top: 9vh;
   border: none;
