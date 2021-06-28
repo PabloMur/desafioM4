@@ -30,7 +30,7 @@ function footer(el) {
       </li>
       <li class="contactList__item">
         <a href="https://github.com/PabloMur" target="_blank">github</a>
-        <img class="contactList__item--img" src="/img/github.svg" alt="" />
+        <img class="contactList__item--img" src="../../img/github.svg" alt="" />
       </li>
     </ul>
   </div>

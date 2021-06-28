@@ -8,7 +8,7 @@ function header(el) {
         <a href="../../index.html"
           ><img
             class="logoP__img"
-            src="/img/logoDos.png"
+            src=""
             alt="logo de la empresa - Pablo Murillo"
         /></a><p class="pageName">Pablo Murillo</p>
       </div>
@@ -43,5 +43,20 @@ function header(el) {
       modal.classList.add("showModal");
     });
   }
+
+  function traerLogo() {
+    return fetch(
+      "https://cdn.contentful.com/spaces/5xbk2z82bc5k/environments/master/entries?access_token=JJ3XNobA54WqjpmpAtiyUtnixWDPg0825dOD4WDCMWo&&content_type=header"
+    )
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        let logoImg = document.querySelector(".logoP__img");
+        logoImg.src = data.includes.Asset[0].fields.file.url;
+      });
+  }
+
   menuDesplegable();
+  traerLogo();
 }
