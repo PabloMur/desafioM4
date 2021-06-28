@@ -31,6 +31,9 @@
 
 .header__nav--burger {
   display: inherit;
+  position: absolute;
+  z-index: 3;
+  right: 6%;
 }
 
 @media (min-width: 960px) {
@@ -95,4 +98,9 @@
   font-size: 2.5rem;
   color: white;
   margin: 15px;
+}
+
+.showModal {
+  display: inherit;
+  transform: translateX(0%);
 }
