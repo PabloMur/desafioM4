@@ -46,7 +46,7 @@ function contacto(el) {
         .then((res) => {
           res.json();
         })
-        .then((data) => console.log(data));
+        .then((data) => console.log("mensaje enviado"));
     });
   }
 

@@ -2,7 +2,6 @@ function portfolio(el) {
   const serviciosEl = document.createElement("div");
   serviciosEl.innerHTML = `<div class="portfolio--container">
   <h1 class="portfolio--title">Portfolio</h1>
-  <h2>Algo que quieras decir sobre tu portfolio</h2>
   <div class="portfolio--container__results">
     <template id="portfolio--work__template">
       <div class="portfolio--work">
