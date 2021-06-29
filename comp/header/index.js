@@ -5,7 +5,7 @@ function header(el) {
   
     <nav class="header__nav">
       <div class="header__nav--logoP">
-        <a href="../../index.html"
+        <a href="./index.html"
           ><img
             class="logoP__img"
             src=""
@@ -13,9 +13,9 @@ function header(el) {
         /></a><p class="pageName">Pablo Murillo</p>
       </div>
       <ul class="header__nav--lista">
-        <li><a href="../../portfolio.html">portfolio</a></li>
-        <li><a href="../../servicios.html">servicios</a></li>
-        <li><a href="../../contacto.html">contacto</a></li>
+        <li><a href="./portfolio.html">portfolio</a></li>
+        <li><a href="./servicios.html">servicios</a></li>
+        <li><a href="./contacto.html">contacto</a></li>
       </ul>
       <img
         class="header__nav--burger"
@@ -25,10 +25,10 @@ function header(el) {
     </nav>
     <div class="header__menu-modal">
       <ul class="header__menu-modal--lista">
-        <li><a href="../../portfolio.html">portfolio</a></li>
-        <li><a href="../../servicios.html">servicios</a></li>
-        <li><a href="../../contacto.html">contacto</a></li>
-        <li><a href="../../index.html">home</a></li>
+        <li><a href="./portfolio.html">portfolio</a></li>
+        <li><a href="./servicios.html">servicios</a></li>
+        <li><a href="./contacto.html">contacto</a></li>
+        <li><a href="./index.html">home</a></li>
       </ul>
     </div>
   
