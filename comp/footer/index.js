@@ -2,7 +2,7 @@ function footer(el) {
   let footerEl = document.createElement("div");
   footerEl.innerHTML = `<footer class="footerEl">
   <div class="footerEl__logoPersonal">
-    <img class="footerEl__logoPersonal--img" src="/img/logoDos.png" alt="#" />
+    <img class="footerEl__logoPersonal--img" src="" alt="#" />
   </div>
   <div class="footerEl__contactList">
     <ul class="footerEl__contactList--ul">
