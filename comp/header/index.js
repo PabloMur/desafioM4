@@ -9,7 +9,7 @@ function header(el) {
           ><img
             class="logoP__img"
             src=""
-            alt="logo de la empresa - Pablo Murillo"
+            alt="#"
         /></a><p class="pageName">Pablo Murillo</p>
       </div>
       <ul class="header__nav--lista">

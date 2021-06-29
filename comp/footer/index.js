@@ -36,7 +36,8 @@ function footer(el) {
   </div>
 </footer>`;
   el.appendChild(footerEl);
-  function traerLogo() {
+
+  function traerLogoFooter() {
     return fetch(
       "https://cdn.contentful.com/spaces/5xbk2z82bc5k/environments/master/entries?access_token=JJ3XNobA54WqjpmpAtiyUtnixWDPg0825dOD4WDCMWo&&content_type=footer"
     )
@@ -48,5 +49,5 @@ function footer(el) {
         logoImg.src = data.includes.Asset[0].fields.file.url;
       });
   }
-  traerLogo();
+  traerLogoFooter();
 }
