@@ -13,7 +13,7 @@ function footer(el) {
           >instagram</a
         ><img
           class="contactList__item--img"
-          src="/img/instagram.svg"
+          src="https://image.flaticon.com/icons/png/512/2111/2111463.png"
           alt="#"
         />
       </li>
@@ -24,13 +24,13 @@ function footer(el) {
         ></a>
         linkedin<img
           class="contactList__item--img"
-          src="/img/linkedin.svg"
+          src="https://image.flaticon.com/icons/png/512/174/174857.png"
           alt=""
         />
       </li>
       <li class="contactList__item">
         <a href="https://github.com/PabloMur" target="_blank">github</a>
-        <img class="contactList__item--img" src="../../img/github.svg" alt="" />
+        <img class="contactList__item--img" src="https://image.flaticon.com/icons/png/512/25/25657.png" alt="" />
       </li>
     </ul>
   </div>
