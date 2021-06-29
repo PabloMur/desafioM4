@@ -48,4 +48,5 @@ function footer(el) {
         logoImg.src = data.includes.Asset[0].fields.file.url;
       });
   }
+  traerLogo();
 }
